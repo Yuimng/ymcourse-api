@@ -223,7 +223,7 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  vary@1.1.2:
+  consty@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
@@ -319,7 +319,7 @@ snapshots:
       statuses: 1.4.0
       type-is: 1.6.18
       utils-merge: 1.0.1
-      vary: 1.1.2
+      consty: 1.1.2
     transitivePeerDependencies:
       - supports-color
 
@@ -452,4 +452,4 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  vary@1.1.2: {}
+  consty@1.1.2: {}
