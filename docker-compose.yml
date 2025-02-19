@@ -5,8 +5,10 @@ services:
     image: mysql:8.3.0
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
     environment:
-      - MYSQL_ROOT_PASSWORD=root1234
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - MYSQL_LOWER_CASE_TABLE_NAMES=0
+    env_file:
+      - .env
     ports:
       - '3306:3306'
     volumes:
